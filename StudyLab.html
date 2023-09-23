@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study-lab</title>
+    <style>
+        *{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        #parent{
+            display: flex;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 20px;
+            flex-wrap: wrap;
+            font-weight: bold;
+        }
+        .child1{
+            background-color: aqua;
+            margin-right: 35%;
+            font-size: 25px;
+        }
+        .allChild{
+            font-size: 18px;
+        }
+        #mainCointainer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+        }
+        #parent2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .shadow{
+            box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 2px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child1">StudyLab Logo</div>
+        <div style="color: blue;">Home</div>
+        <div>About</div>
+        <div>Course</div>
+        <div>Instructor</div>
+        <div>Blog</div>
+        <div>Contact</div>
+    </div>
+    <div id="mainCointainer">
+        <div>
+            <div>
+                <p>Welcome to Study Lab</p>
+                <h1>We are Study Lab An Online Learning Center</h1>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <div style="display: flex;">
+                    <div><iframe width="200" height="100" src="https://www.youtube.com/embed/jI-HeXhsUIg?si=4XkCXbOvEQiesnDV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div><p>Rocket Science: How Rockets Work - A Short and Basic Explanation</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="parent2"> 
+            <div>
+            <div class="shadow">
+                <img src="https://images-platform.99static.com//Q_TotyCgDbIA7hs8NmkV3Q7VPX4=/0x0:4167x4167/fit-in/500x500/projects-files/135/13585/1358512/d609e4c8-1abd-4299-ad3c-6357dce25ed4.jpg" alt="Logo">
+                <h3>Top Quality Content</h3>
+                <p>A small river named duden flows by their place and supplies.</p>
+            </div>
+            <div class="shadow">
+                <img src="https://img.freepik.com/premium-vector/skills-capability-talent-icon-communication-abilities-professional-skills-capability-icon-talent-development-ability-achievement-beginnings-business-businessman-career-challenge_995545-136.jpg?w=2000" alt="Logo">
+                <h3>Highly Skilled Instructor</h3>
+                <p>A small river named duden flows by their place and supplies.</p>
+            </div>
+            </div>
+            <div>
+                <div class="shadow">
+                    <img src="https://w7.pngwing.com/pngs/634/780/png-transparent-globe-world-logo-sphere-desktop-globe-miscellaneous-globe-computer-thumbnail.png" alt="Logo">
+                    <h3>World Class and Quiz</h3>
+                    <p>A small river named duden flows by their place and supplies.</p>
+                </div>
+                <div class="shadow">
+                    <img src="https://img.freepik.com/free-vector/grunge-certified-seal-stamp-rubber-look_78370-664.jpg" alt="Logo">
+                    <h3>Get Certified</h3>
+                    <p>A small river named duden flows by their place and supplies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

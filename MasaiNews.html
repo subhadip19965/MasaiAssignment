@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai News</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 25px;
+        }
+        .img1{
+            height: 100%;
+            width: 250px;
+        }
+        #parent{
+            display: flex;
+            /* border: 2px solid red; */
+            padding: 2%;
+            /* flex-wrap: wrap; */
+            flex-direction: row;
+            background-color: rgb(197, 190, 190);
+        }
+        .child{
+            justify-content: space-evenly;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: 2%;
+            padding: 2%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .pd{
+            color: blue;
+        }
+        button{
+            background-color: white;
+            color: black;
+            border: 2px solid #cb2b39;
+            border-radius: 7px;
+            color:#cb2b39;
+            padding: 5px;
+        }
+        #final{
+            display: flex;
+            /* border: 3px solid red; */
+            justify-content: space-evenly;
+            padding: 2%;
+            height: 80px;
+            width: 100%;
+        }
+        .img2{
+            height: 10px%;
+            width: 190px;
+        }
+        .fdiv{
+            height: 90%;
+            width: 25%;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Masai In the News</h1>
+    <div id="parent">
+        <div class="child">
+            <center><img class="img1" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/The_Economic_Times_logo.png" alt="The economy times"></center>
+            <p class="pd">21 Dec 2021</p>
+            <p><b>Edutech startup Masai school acquires data analytics firm prepleaf for $1 million. </b></p>
+            <p>With there latest acquisition masai moves one step cloger to becomeing...</p>
+        </div>
+        <div class="child">
+            <center><img class="img1" src="https://images.moneycontrol.com/static-mcnews/2017/03/Moneycontrol_Logo-1-770x433.jpg" alt="Money Control"></center>
+            <p class="pd">26 Oct 2021</p>
+            <p><b>Edutech startup Masai school acquires data analytics firm prepleaf for $1 million. </b></p>
+            <p>With there latest acquisition masai moves one step cloger to becomeing...</p>
+        </div>
+        <div class="child">
+            <center><img class="img1" src="https://apiexcellent.com/images/digital/product/vccircle-digital11002.webp" alt="Vccircle"></center>
+            <p class="pd">18 Oct 2020</p>
+            <p><b>Edutech startup Masai school acquires data analytics firm prepleaf for $1 million. </b></p>
+            <p>With there latest acquisition masai moves one step cloger to becomeing...</p>
+        </div>
+    </div>
+    <br>
+    <center><button>See More ></button></center>
+    <br>br
+    <h1>Our Investers, Who Belive On Us</h1>
+    <div id="final">
+        <div class="fdiv"><center><img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Unitus_Logo.png" alt=""></center></div>
+        <div class="fdiv"><center><img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Omidyar_Network_logo.svg/1280px-Omidyar_Network_logo.svg.png" alt=""></center></div>
+        <div class="fdiv"><center><img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Unitus_Logo.png" alt=""></center></div>
+    </div>
+</body>
+</html>
